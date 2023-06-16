@@ -1,0 +1,23 @@
+{
+  "name": "autoBotWhastApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.15.0",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.21.0"
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.0",
+    "nodemon": "^2.0.22",
+    "prisma": "^4.15.0",
+    "tsup": "^7.0.0",
+    "typescript": "^5.1.3"
+  }
+}
